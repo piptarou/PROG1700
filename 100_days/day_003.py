@@ -1,0 +1,8 @@
+food = input("Gimme a food: ")
+plant = input("Gimme a plant: ")
+cooking = input("Tell me a cooking method: ")
+burn = input("Gimme a synonym for burnt food:  ")
+item = input("What's something next to you? ")
+print (cooking, food, "with", burn, plant, "on a bed of", item)
+print ()
+print ("On second thought, you should probably throw that out...")
