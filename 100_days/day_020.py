@@ -16,12 +16,12 @@ while True:
       for i in range (start, end, incr):
         print(i)
     for i in range (start, end, incr):
-      print(i)    
+      print(i)
   elif (start < end) and incr <=0:
     print("Use at least '1' for an increment!")
     incr = int(input("In what increment?: "))
     for i in range (start, end, incr):
       print(i)
-else:
-  for i in range (start, end, incr):
-    print(i)
+  else:
+    for i in range (start, end, incr):
+      print(i)
